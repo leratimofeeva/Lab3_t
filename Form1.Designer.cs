@@ -1,4 +1,4 @@
-﻿namespace lab_3
+﻿namespace Labr3
 {
     partial class Form1
     {
@@ -109,6 +109,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.RegionName,
@@ -132,7 +133,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1083, 539);
             this.dataGridView1.TabIndex = 0;
-            //this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // RegionName
             // 
@@ -293,7 +293,6 @@
             this.label1.Size = new System.Drawing.Size(135, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Ввести количество N лет";
-            //this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // numericUpDown1
             // 

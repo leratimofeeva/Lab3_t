@@ -1,4 +1,5 @@
-﻿using System;
+﻿//using Labr3;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace lab_3
+namespace Labr3
 {
     public partial class Form1 : Form
     {
@@ -22,7 +23,7 @@ namespace lab_3
         private void button1_Click(object sender, EventArgs e)
         {
             //ListRegion listRegion = new ListRegion();
-            listRegion.LoadFromExcel(); // загрузка из экселя
+            listRegion.LoadFromExel(); // загрузка из экселя
 
             // очищение dataGridView1
             dataGridView1.Rows.Clear();
@@ -86,7 +87,8 @@ namespace lab_3
             int NYears_ = Convert.ToInt32(numericUpDown1.Value);  // количество лет для экстраполяции
             int kol = Convert.ToInt32(numericUpDown2.Value);   // интервал времени
 
-            List<Region> copy = new List<Region>();
+            List<Region>
+            //List<Region> copy = new List<Region>();
 
             copy = listRegion.copy(); // поиск двух нужных строк
 
