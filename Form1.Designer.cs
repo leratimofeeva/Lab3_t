@@ -99,7 +99,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1115, 57);
+            this.button1.Location = new System.Drawing.Point(1107, 17);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 23);
             this.button1.TabIndex = 1;
@@ -233,7 +233,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1126, 103);
+            this.button2.Location = new System.Drawing.Point(1126, 22);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(122, 23);
             this.button2.TabIndex = 1;
@@ -271,7 +271,7 @@
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(614, 203);
+            this.numericUpDown2.Location = new System.Drawing.Point(1063, 152);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown2.TabIndex = 5;
@@ -279,7 +279,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(614, 171);
+            this.label2.Location = new System.Drawing.Point(1063, 120);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 13);
             this.label2.TabIndex = 4;
@@ -288,7 +288,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(614, 114);
+            this.label1.Location = new System.Drawing.Point(1063, 63);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 13);
             this.label1.TabIndex = 3;
@@ -296,14 +296,14 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(614, 133);
+            this.numericUpDown1.Location = new System.Drawing.Point(1063, 82);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown1.TabIndex = 2;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(614, 72);
+            this.button3.Location = new System.Drawing.Point(1063, 21);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(174, 23);
             this.button3.TabIndex = 1;
@@ -319,7 +319,7 @@
             this.chart2.Legends.Add(legend2);
             this.chart2.Location = new System.Drawing.Point(18, 21);
             this.chart2.Name = "chart2";
-            this.chart2.Size = new System.Drawing.Size(431, 346);
+            this.chart2.Size = new System.Drawing.Size(995, 529);
             this.chart2.TabIndex = 0;
             this.chart2.Text = "chart2";
             // 

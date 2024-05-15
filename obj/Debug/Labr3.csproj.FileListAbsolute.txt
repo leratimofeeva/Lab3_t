@@ -9,3 +9,14 @@ C:\TP\Lab3_t\bin\Debug\Labr3.pdb
 C:\TP\Lab3_t\obj\Debug\Labr3.Form1.resources
 C:\TP\Lab3_t\obj\Debug\Labr3.exe
 C:\TP\Lab3_t\obj\Debug\Labr3.pdb
+C:\TPr\Labr3\bin\Debug\Labr3.exe.config
+C:\TPr\Labr3\bin\Debug\Labr3.exe
+C:\TPr\Labr3\bin\Debug\Labr3.pdb
+C:\TPr\Labr3\obj\Debug\Labr3.csproj.AssemblyReference.cache
+C:\TPr\Labr3\obj\Debug\Labr3.csproj.ResolveComReference.cache
+C:\TPr\Labr3\obj\Debug\Labr3.Form1.resources
+C:\TPr\Labr3\obj\Debug\Labr3.Properties.Resources.resources
+C:\TPr\Labr3\obj\Debug\Labr3.csproj.GenerateResource.cache
+C:\TPr\Labr3\obj\Debug\Labr3.csproj.CoreCompileInputs.cache
+C:\TPr\Labr3\obj\Debug\Labr3.exe
+C:\TPr\Labr3\obj\Debug\Labr3.pdb

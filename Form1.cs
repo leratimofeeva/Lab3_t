@@ -22,7 +22,7 @@ namespace Labr3
         //загрузка данных из Excel
         private void button1_Click(object sender, EventArgs e)
         {
-            //ListRegion listRegion = new ListRegion();
+            
             listRegion.LoadFromExel(); // загрузка из экселя
 
             // очищение dataGridView1
@@ -65,8 +65,8 @@ namespace Labr3
                     int y = Convert.ToInt32(dataGridView1.Rows[i].Cells[k].Value);
                     chart1.Series["Series" + i.ToString()].Points.AddXY(x, y);
                     // тип графика или в свойствах
-                    chart1.Series["Series" + i.ToString()].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-                    //chart1.Series["Series" + i.ToString()].Points.AddXY(x, y);
+                    //chart1.Series["Series" + i.ToString()].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+                    
                 }
             }
 
@@ -87,8 +87,8 @@ namespace Labr3
             int NYears_ = Convert.ToInt32(numericUpDown1.Value);  // количество лет для экстраполяции
             int kol = Convert.ToInt32(numericUpDown2.Value);   // интервал времени
 
-            List<Region>
-            //List<Region> copy = new List<Region>();
+           
+            List<Region> copy = new List<Region>();
 
             copy = listRegion.copy(); // поиск двух нужных строк
 
@@ -177,9 +177,6 @@ namespace Labr3
                     massEkstp.Add(y);
 
                     chart2.Series["Series" + (i + 2).ToString()].Points.AddXY(x, y);
-
-                    // тип графика или в свойствах
-                    //chart2.Series["Series" + i.ToString()].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
 
                 }
             }
