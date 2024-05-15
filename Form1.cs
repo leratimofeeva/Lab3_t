@@ -40,9 +40,7 @@ namespace Labr3
         {
             chart1.Series.Clear();
             Random rnd = new Random();
-            //chart1.Series[2].Points.Clear(); // очищение точек
 
-            //MessageBox.Show("Число точек должно быть не меньше 4");
             for (int i = 0; i < dataGridView1.Rows.Count; i++)
             //for (int i = 1; i < 86; i++)
             {
@@ -54,8 +52,8 @@ namespace Labr3
                 chart1.Series["Series" + i.ToString()].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
                 chart1.Series["Series" + i.ToString()].Color = Color.FromArgb(255, r, g, b);
 
-                chart1.Series["Series" + i.ToString()].LegendText = dataGridView1.Rows[i].Cells[0].Value.ToString(); //"Название Series"
-                                                                                                                     //MessageBox.Show("Назавание " + dataGridView1.Rows[i].Cells[0].Value);
+                chart1.Series["Series" + i.ToString()].LegendText = dataGridView1.Rows[i].Cells[0].Value.ToString(); //"Название Series"  название региона
+                                                                                                                     
 
 
 
